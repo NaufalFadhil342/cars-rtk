@@ -1,0 +1,17 @@
+.carValue {
+  width: 768px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carValue div {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carValue div p {
+  font-weight: bold;
+}

@@ -1,0 +1,53 @@
+.addCar {
+  width: 768px;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.addCar h4 {
+  color: grey;
+}
+
+.addCar form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.addCar form .carName,
+.addCar form .carCost {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.addCar form .carName label,
+.addCar form .carCost label {
+  font-style: italic;
+}
+
+.addCar form .carName input,
+.addCar form .carCost input {
+  width: 20rem;
+  height: 2rem;
+  padding-left: 8px;
+  border: 1px solid grey;
+  border-radius: 7px;
+}
+
+.addCar form button {
+  height: 2rem;
+  padding: 0 0.75rem;
+  background-color: silver;
+  color: white;
+  border: none;
+  border-radius: 7px;
+}
+
+.addCar form button:hover {
+  background-color: #b5b5b5;
+}

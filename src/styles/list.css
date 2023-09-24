@@ -1,0 +1,58 @@
+.carList {
+  width: 768px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.carList span {
+  width: 100%;
+  border: 1.5px solid grey;
+  border-radius: 7px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carList span .data {
+  flex: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carList span .data.bolder {
+  font-weight: bold;
+}
+
+.carList span .data.bolder h3 {
+  color: #1f1f1f;
+}
+
+.carList span .data h3 {
+  color: grey;
+}
+
+.carList span .remove {
+  flex: 30%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carList span .remove button {
+  border: none;
+  border-radius: 5px;
+  width: 2rem;
+  padding: 0.5rem 0;
+  background-color: #ff0015;
+  color: white;
+}
+
+.carList span .remove button:hover {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: #eb0014;
+}

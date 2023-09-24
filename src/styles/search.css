@@ -1,0 +1,19 @@
+.carSearch {
+  width: 768px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.carSearch h3 {
+  color: grey;
+}
+
+.carSearch input {
+  width: 12rem;
+  height: 2rem;
+  padding-left: 5px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  outline-color: #a0a0a0;
+}
